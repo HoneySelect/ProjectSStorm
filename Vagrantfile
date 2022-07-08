@@ -7,7 +7,7 @@ VAGRANTFILE_API_VERSION = '2'
 # Install dependencies
 apt-add-repository ppa:ondrej/php
 apt-get update
-apt-get install -y apache2 curl php8.1 php8.1-pgsql php8.1-curl php8.1-zip postgresql postgresql-contrib zip unzip 
+apt-get install -y apache2 curl php8.1 php8.1-pgsql php8.1-curl php8.1-zip postgresql postgresql-contrib zip unzip php-xml
 
 
 # Configure Apache
